@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginpage{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);;
+}
+
+label{
+    margin-left: 40px;
+    font-size: larger;
+    font-weight: 100;
+}
+
+.fill{
+    height: 45px;
+    width: 332px;
+    font-size: smaller;
+    border-radius: 5px;
+    border: 1px solid #c9c7c7;
+    margin: 9px;
+    font-size: 17px;
+    font-family: inherit;
+}
+
+#button {
+    height: 45px;
+    width: 332px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 9px;
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 0 16px;
+    background-color: #0866ff;
+    color: white;;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+
+
+.additional{
+    height: 40px;
+    width: 100%;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.additional a {
+    text-decoration: none;
+    color: #1e00ff;
+    font-size: smaller;
+    font-weight: bold;
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    margin-left: px;
+}
+
+hr {
+    opacity: 0.5;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #0866ff;
+}
+
+#signup {
+    margin-top: 17px;
+}
