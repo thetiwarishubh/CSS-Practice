@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.nav-list {
+    height: 80px;
+    width: 100%;
+    background-color: #006fee;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    font-size: 18px;
+}
+
+.breakone {
+    opacity:0.4;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+p{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.engine li {
+    text-align: left;
+    margin-left: 220px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+span{
+    font-weight: bold;
+}
+
+h3{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.breaktwo {
+    opacity:0.4;
+    margin-top: 20px;
+}
+
+.secondcarlist {
+    margin: 20px;
+
+}
+
+.breakthree {
+    opacity:0.4;
+    margin: 20px 0px;
+}
+
+ol {
+    list-style-type: decimal; 
+    padding-left: 40px; 
+    text-align: left; 
+    margin-top: 10px;
+}
+
+ol li {
+    margin-top: 5px;
+}
+
+.carname {
+    margin-left: 50px;
+}
+
+.breakfour {
+    opacity:0.4;
+    margin: 20px 0px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    text-align: inherit;
+}
+
