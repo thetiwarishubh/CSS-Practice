@@ -1,0 +1,45 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #333333;
+}
+
+.card {
+    height: 200px;
+    width: 300px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+input {
+    height: 25px;
+    width: 200px;
+    margin: 5px;
+}
+
+button {
+    height: 30px;
+    width: 200px;
+    margin: 5px;
+    background-color: #4b55e2;
+    color: white;
+    font-size: 19px;
+}
+
+button:hover {
+    background-color: #e41010;
+}
